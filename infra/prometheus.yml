@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: rfq-core
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets: [core-api:8080]
+
+  - job_name: rfq-agent-worker
+    metrics_path: /metrics
+    static_configs:
+      - targets: [agent-worker:8081]

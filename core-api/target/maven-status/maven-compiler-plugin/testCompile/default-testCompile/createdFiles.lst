@@ -1,0 +1,4 @@
+com\otc\rfq\api\ApiKeyFilterTest.class
+com\otc\rfq\messaging\RfqEventValidatorTest.class
+com\otc\rfq\RfqApiIntegrationTest.class
+com\otc\rfq\service\RfqServiceTest.class

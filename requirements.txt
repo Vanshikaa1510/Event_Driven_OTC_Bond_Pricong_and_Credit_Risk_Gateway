@@ -1,0 +1,14 @@
+aiokafka
+fastapi
+huggingface_hub
+langchain-huggingface
+langchain
+langchain-openai
+langgraph
+pgvector
+prometheus-client
+psycopg[binary]
+python-dotenv
+requests
+streamlit
+uvicorn[standard]
